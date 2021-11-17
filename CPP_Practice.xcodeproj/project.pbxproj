@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C66C7432745060900E79306 /* MadLibsGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C66C7412745060900E79306 /* MadLibsGame.cpp */; };
+		7C66C7492745088A00E79306 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C66C7472745088A00E79306 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,7 @@
 
 /* Begin PBXFileReference section */
 		7C66C7372745010600E79306 /* CPP_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C66C7412745060900E79306 /* MadLibsGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MadLibsGame.cpp; sourceTree = "<group>"; };
-		7C66C7422745060900E79306 /* MadLibsGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MadLibsGame.hpp; sourceTree = "<group>"; };
+		7C66C7472745088A00E79306 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +57,7 @@
 		7C66C7392745010600E79306 /* CPP_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				7C66C7412745060900E79306 /* MadLibsGame.cpp */,
-				7C66C7422745060900E79306 /* MadLibsGame.hpp */,
+				7C66C7472745088A00E79306 /* main.cpp */,
 			);
 			path = CPP_Practice;
 			sourceTree = "<group>";
@@ -121,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C66C7432745060900E79306 /* MadLibsGame.cpp in Sources */,
+				7C66C7492745088A00E79306 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

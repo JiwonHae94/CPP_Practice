@@ -6,42 +6,35 @@
 //
 
 #include <iostream>
-#include <cmath>
-
 using namespace std;
 
-
-void show_types(){
-    char cha = 'c';
-    string str = "string";
-    int integer = 1;
-    float flo = 1.0f;
-    double dou = 1.00000000f;
+void play_game(){
+    string color, pluralNoun, celebrity;
+    
+    cout << "enter a color : ";
+    getline(cin, color);
+    
+    cout << "enter a plural noun : ";
+    getline(cin, pluralNoun);
+    
+    cout << "enter a celebrity : ";
+    getline(cin, celebrity);
     
     
-    int age;
-    cout << "Enter your age : " << endl;
-    
-    // cin : single input
-    // getline : get a line of information getline(cin, variableName)
-    cin >> age;
-    
-    cout << age << endl;
+    cout << "Roses are " << color << endl;
+    cout << "Violets are " << pluralNoun << endl;
+    cout << "I love you " << celebrity << endl;
 }
 
 
-int main(int argc, const char * argv[]) {
+void play_array(){
+    int nums[] = {4, 8, 15, 10, 20, 30};
     
-    string characterName = "John";
-    int age = 10;
-    
-    cout << "My name is " << characterName << endl;
-    cout << "I am " << age << " years old" << endl;
-    
-    show_types();
-    
+    cout << nums[0] << endl;
+}
+int main(){
+    play_array();
+    play_game();
     return 0;
 }
-
-
 
