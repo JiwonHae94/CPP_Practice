@@ -115,6 +115,18 @@ void printCircle(int size){
     }
 }
 
+void fib(int size){
+    int fibNums[size];
+    fibNums[0] = 1;
+    fibNums[1] = 1;
+    
+    for(int i = 2; i < size; i++){
+        fibNums[i] = fibNums[i-1] + fibNums[i-2];
+    }
+    
+    cout << size << "th fib number is " << fibNums[size-1] << endl;
+}
+
 int main(){
     cout << "size of diagrams to be drawn: ";
     int size;
@@ -122,9 +134,11 @@ int main(){
     
     printPyramid(size);
     printCircle(size);
+    fib(size);
     
     
     
     return 0;
 }
+
 
